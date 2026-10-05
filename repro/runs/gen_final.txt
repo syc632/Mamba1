@@ -1,0 +1,51 @@
+[ckpt] runs/125m/ckpt_final.pt  step=4799  params=83.9M
+[mode] temp=0.8 top_p=0.95  max_new=80
+
+==============================================================================
+PROMPT : The capital of France is
+OUTPUT : The capital of France is Paris.
+The French capital is the capital of Paris.
+French Prime Minister Pierre Trudeau is the first President of the United States.
+The first President of the United States was Jean-Baptiste Laplace.
+French-speaking countries and the French-speaking world:
+The United States is the only country in the world that is considered the only European country in the world.
+The
+[ 80 tok in 4.56s = 17.5 tok/s ]
+==============================================================================
+PROMPT : In physics, the law of conservation of energy states that
+OUTPUT : In physics, the law of conservation of energy states that the rate of the motion of a system is the same as the rate of change of the constant power of the system. For example, a car is at rest when it is moving in an empty parking lot, but as the car moves, the force of gravity in that parking space decreases. This has been known for a long time, but scientists do not yet know why it is not.
+(
+[ 80 tok in 0.72s = 110.8 tok/s ]
+==============================================================================
+PROMPT : The main difference between mitosis and meiosis is
+OUTPUT : The main difference between mitosis and meiosis is the mutation, while mitosis is the result of some mutation, i.e. the result of a mutation on the chromosome that is passed on. When I have a mutation that is turned on on the chromosome, i.e. meiosis on the chromosome is called mitosis.
+“The two sides of the chromosome are always looking for the same mutation, and this is called epigenetic
+[ 80 tok in 0.69s = 115.2 tok/s ]
+==============================================================================
+PROMPT : Water boils at 100 degrees Celsius because
+OUTPUT : Water boils at 100 degrees Celsius because of its low density of carbon dioxide. The boiling point is 32 degrees Celsius and boils at 210 degrees Celsius. This means that the boiling point is 600 °F.
+The reason that the boiling point of water boils at 40 degrees is because it boils at 150 °F. When the boiling point reaches zero, it boils at 800 °F. And when it boils at 1200 °F, it boils
+[ 80 tok in 0.71s = 111.9 tok/s ]
+==============================================================================
+PROMPT : Once upon a time, there was a
+OUTPUT : Once upon a time, there was a species of mouflon called the black-crowned night heron. A few years later, in the 19th century, there was another species of mouflon, the mouflon peleau.
+While in the wild, mouflon often roosts in dense woodlands. This species of mouflon is known as the black-crowned night heron
+[ 80 tok in 0.69s = 115.7 tok/s ]
+==============================================================================
+PROMPT : def quicksort(arr):
+OUTPUT : def quicksort(arr):
+def quicksort(arr): quicksort(crump)
+What is the problem in data science?
+In this post, I will make a comparison between the two types of data science and will provide some examples of how it might be used.
+What does the statistical model of the data science do to solve the problem?
+The main problem of the data science is to make
+[ 80 tok in 0.73s = 109.6 tok/s ]
+==============================================================================
+PROMPT : The French Revolution began in 1789 and
+OUTPUT : The French Revolution began in 1789 and continued for some time in France.
+The French Revolution had been one of the major causes of the Great Depression, but its roots go much further than that.
+The Revolution began in Paris in 1789, and it took place at various levels in various countries.
+The French Revolution was a major political event that sparked national sentiments and brought revolution to the country.
+The French Revolution was a political
+[ 80 tok in 0.69s = 115.8 tok/s ]
+==============================================================================

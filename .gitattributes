@@ -1,0 +1,17 @@
+# Keep LF endings for sources that break under CRLF (shell scripts get a stray
+# \r on every line and fail on Linux/CI). Windows is the dev machine here, so
+# core.autocrlf would otherwise rewrite them.
+* text=auto
+
+*.sh   text eol=lf
+*.py   text eol=lf
+*.cu   text eol=lf
+*.cuh  text eol=lf
+*.h    text eol=lf
+*.cpp  text eol=lf
+*.bat  text eol=crlf
+
+# Binary: never touch
+*.png  binary
+*.json binary
+*.js   -text

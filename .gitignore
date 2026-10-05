@@ -1,0 +1,41 @@
+# ---- Python / build artifacts ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+*.so
+*.pyd
+*.dll
+
+# ---- Experiment artifacts (kept locally, never committed) ----
+# 24 GB of tokenised FineWeb-Edu shards
+repro/data/
+# checkpoints (~1 GB each); runs/gen_final.txt is kept, it is 4 KB
+repro/runs/*/
+repro/runs/*.pt
+repro/runs/*.bin
+# local wandb run buffers
+repro/wandb/
+wandb/
+*.pt
+*.pth
+*.bin
+*.npy
+*.npz
+
+# ---- Credentials ----
+repro/tools/wandb_env.sh
+.env
+*.key
+*.pem
+
+# ---- Editors / tooling ----
+.idea/
+.vscode/
+.workbuddy/
+.DS_Store
+
+# ---- Logs ----
+*.log
